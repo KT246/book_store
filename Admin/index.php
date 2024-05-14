@@ -6,6 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Menu</h1>
+    
+    <div>
+        <?php include_once 'component/navbar.php'; ?>
+        <?php include_once 'component/content.php'; ?>
+    </div>
+
 </body>
 </html>
