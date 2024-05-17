@@ -4,7 +4,7 @@
         $menu = $_GET['coi'];
 //------------ index content
         if($menu == 'home'){
-            include 'content/allProduct.php';
+            include './User/content/allProduct.php';
         }
         elseif($menu == 'allp'){
             include './User/content/allProduct.php';
@@ -20,6 +20,9 @@
         }
         elseif($menu == 'detail'){
             include './User/content/detail.php';
+        }
+        elseif($menu == 'set'){
+            include './set.php';
         }
 
 //------------ page content

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: May 13, 2024 at 08:56 AM
+-- Generation Time: May 17, 2024 at 05:42 AM
 -- Server version: 8.2.0
 -- PHP Version: 8.2.13
 
@@ -71,9 +71,20 @@ CREATE TABLE IF NOT EXISTS `tb_book` (
   `price` float NOT NULL,
   `image` varchar(256) COLLATE utf8mb4_vietnamese_ci NOT NULL,
   `describes` text CHARACTER SET utf8mb4 COLLATE utf8mb4_vietnamese_ci NOT NULL,
+  `type` varchar(20) COLLATE utf8mb4_vietnamese_ci NOT NULL,
   `status` tinyint(1) NOT NULL,
   PRIMARY KEY (`id_book`)
-) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
+
+--
+-- Dumping data for table `tb_book`
+--
+
+INSERT INTO `tb_book` (`id_book`, `name_book`, `qty`, `price`, `image`, `describes`, `type`, `status`) VALUES
+(10, 'Math Book ', 10, 500, 'https://m.media-amazon.com/images/I/91BhWx8qMQL._AC_UF1000,1000_QL80_.jpg', 'This is a great book for developers.\r\nbut are you ok chứ , no i\'m ok i\'m fire thank you and you', 'math', 1),
+(11, 'One piec book', 15, 600, 'https://m.media-amazon.com/images/I/915MMiqLEcL._AC_UF1000,1000_QL80_.jpg', 'This book is a must-read for all developers.', 'cartoon', 1),
+(12, 'PHP beginer', 20, 300, 'https://media.springernature.com/full/springer-static/cover-hires/book/978-1-4302-6814-7', 'This is a fun and engaging animated book.', 'developer', 1),
+(13, 'Doraemon book', 25, 350, 'https://m.media-amazon.com/images/I/51sgwXH1JxL._AC_UF1000,1000_QL80_.jpg', 'Kids will love this animated book.', 'cartoon', 1);
 
 -- --------------------------------------------------------
 

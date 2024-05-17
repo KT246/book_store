@@ -12,6 +12,7 @@
 
 
             <?php
+                
                 include_once 'con_db.php';
 
                 $id_book = $_GET['id'];
@@ -23,11 +24,11 @@
             
     <div class="w-full  ">
         <div class="mx-[10%] h-full  bg-gray-400 rounded">
-            <div class="grid grid-cols-3  p-3">
+            <div class="grid grid-cols-3 ">
                 <div class="grid place-content-center">
                     <img src="<?php echo $data['image']; ?>" alt="" class="w-[280px] h-[350px]">
                     <div class="grid grid-cols-2 gap-2">
-                        <a href="" class="px-4 py-2.5 rounded bg-green-600 text-center mt-4 text-white">Thêm vào giỏ</a>
+                        <a href="index.php?coi=set&add=<?php  echo $data['id_book']; ?>" class="px-4 py-2.5 rounded bg-green-600 text-center mt-4 text-white">Thêm vào giỏ</a>
                         <a href="" class="px-4 py-2.5 rounded bg-green-600 text-center mt-4 text-white">Đặt hàng</a>
                     </div>
                 </div>
@@ -56,17 +57,10 @@
                                     <h3 class="text-lg font-semibold text-gray-50 pt-1">Mô tả</h3>
                                 </div>
                                 <p class="indent-8 pt-2 text-gray-900"><?php  echo $data['describes']; ?></p>  
-                                <div class="flex mt-4">
-                                    <p class="text-gray-900 text-3xl font-semibold"><?php  echo $data['price'] * 0.7. ' đ'; ?></p>
+                                <div class="flex mt-10">
+                                    <p class="text-red-600 text-3xl font-semibold"><?php  echo $data['price'] * 0.7. ' đ'; ?></p>
                                     <p class="ms-5 text-gray-300 text-xl "><del><?php  echo $data['price'].' đ'; ?></del></p>
                                 </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="flex">
-                                <a href=""  class="text-gray-50 bg-green-600 text-2xl py-1 px-3">-</a>
-                                    <span class="border border-gray-500 rounded px-3 font-semmibold rounded-[2px] ms-3 font-semibold pt-2">1</span>
-                                <a href=""  class="text-gray-50 bg-green-600 text-lg font-semmibold rounded-[2px] py-1 px-3 ms-3">+</a>
                             </div>
                         </div>
                     </div>

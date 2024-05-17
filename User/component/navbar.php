@@ -1,6 +1,6 @@
 <?php
- session_start(); 
- include './con_db.php';
+    session_start(); 
+    include_once "./con_db.php";
 
  ?>
 
@@ -50,7 +50,7 @@
             
            echo '<div class=" flex ">
                 <div class="relative py-1  ">
-                    <a href="./index.php?coi=cart" target="_blank" >
+                    <a href="./cart.php" target="_blank" >
                         <div class="t-0 absolute left-4">
                             <p class="flex h-1 w-2 items-center justify-center rounded-full bg-red-500 p-2 text-xs text-white">3</p>
                         </div>
@@ -70,7 +70,7 @@
         }else{
             echo '<div class=" flex ">
                     <div class="relative py-1  ">
-                        <a href="./page/index.php?coi=cart" target="_blank" >
+                        <a href="./cart.php" target="_blank" >
                             <div class="t-0 absolute left-4">
                                 <p class="flex h-1 w-2 items-center justify-center rounded-full bg-red-500 p-2 text-xs text-white">3</p>
                             </div>
