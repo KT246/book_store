@@ -21,7 +21,7 @@
                                 <path d="M18.266 26.068l7.839-7.854 4.469 4.479c1.859 1.859 1.859 4.875 0 6.734l-1.104 1.104c-1.859 1.865-4.875 1.865-6.734 0zM30.563 2.531l-1.109-1.104c-1.859-1.859-4.875-1.859-6.734 0l-6.719 6.734-6.734-6.734c-1.859-1.859-4.875-1.859-6.734 0l-1.104 1.104c-1.859 1.859-1.859 4.875 0 6.734l6.734 6.734-6.734 6.734c-1.859 1.859-1.859 4.875 0 6.734l1.104 1.104c1.859 1.859 4.875 1.859 6.734 0l21.307-21.307c1.859-1.859 1.859-4.875 0-6.734z"></path>
                             </svg>
                         </div>
-                        <span class="self-center text-2xl font-semibold">Book</span>
+                        <span class="self-center text-3xl text-blue-500 font-bold">BOOK</span>
                     </a>
                 </div>
                 <div class="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-3">
@@ -29,16 +29,16 @@
                         <h3 class="tracking-wide font-medium uppercase ">SẢN PHẨM</h3>
                         <ul class="space-y-1">
                             <li>
-                                <a rel="noopener noreferrer" href="#">Tất cả</a>
+                                <a rel="noopener noreferrer" href="index.php?coi=allp">Tất cả</a>
                             </li>
                             <li>
-                                <a rel="noopener noreferrer" href="#">Toán</a>
+                                <a rel="noopener noreferrer" href="index.php?coi=mathp">Toán</a>
                             </li>
                             <li>
-                                <a rel="noopener noreferrer" href="#">lập trình</a>
+                                <a rel="noopener noreferrer" href="index.php?coi=programp">lập trình</a>
                             </li>
                             <li>
-                                <a rel="noopener noreferrer" href="#">Hoạt hình</a>
+                                <a rel="noopener noreferrer" href="index.php?coi=cartoonp">Hoạt hình</a>
                             </li>
                         </ul>
                     </div>
@@ -91,20 +91,6 @@
                     </span>
                     +84 083 382 5469
                     </p>
-                    <p class="flex items-center justify-center md:justify-start">
-                    <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
-                            <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 24 24"
-                            fill="currentColor">
-                            <path
-                                fill-rule="evenodd"
-                                d="M7.875 1.5C6.839 1.5 6 2.34 6 3.375v2.99c-.426.053-.851.11-1.274.174-1.454.218-2.476 1.483-2.476 2.917v6.294a3 3 0 003 3h.27l-.155 1.705A1.875 1.875 0 007.232 22.5h9.536a1.875 1.875 0 001.867-2.045l-.155-1.705h.27a3 3 0 003-3V9.456c0-1.434-1.022-2.7-2.476-2.917A48.716 48.716 0 0018 6.366V3.375c0-1.036-.84-1.875-1.875-1.875h-8.25zM16.5 6.205v-2.83A.375.375 0 0016.125 3h-8.25a.375.375 0 00-.375.375v2.83a49.353 49.353 0 019 0zm-.217 8.265c.178.018.317.16.333.337l.526 5.784a.375.375 0 01-.374.409H7.232a.375.375 0 01-.374-.409l.526-5.784a.373.373 0 01.333-.337 41.741 41.741 0 018.566 0zm.967-3.97a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H18a.75.75 0 01-.75-.75V10.5zM15 9.75a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75V10.5a.75.75 0 00-.75-.75H15z"
-                                clip-rule="evenodd" />
-                        </svg>
-                    </span>
-                    +84 083 382 5469
-                    </p>
                 </div>
 
                 <!-- ---------------------------socailmedia------------------------- -->
@@ -117,12 +103,6 @@
                                     <path d="M32 16c0-8.839-7.167-16-16-16-8.839 0-16 7.161-16 16 0 7.984 5.849 14.604 13.5 15.803v-11.177h-4.063v-4.625h4.063v-3.527c0-4.009 2.385-6.223 6.041-6.223 1.751 0 3.584 0.312 3.584 0.312v3.937h-2.021c-1.984 0-2.604 1.235-2.604 2.5v3h4.437l-0.713 4.625h-3.724v11.177c7.645-1.199 13.5-7.819 13.5-15.803z"></path>
                                 </svg>
                                 <p class="ms-2">Facebook</p>
-                            </a>
-                            <a rel="noopener noreferrer" href="#" title="Twitter" class="flex items-center my-2 p-1">
-                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-current">
-                                    <path d="M23.954 4.569a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.691 8.094 4.066 6.13 1.64 3.161a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.061a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.937 4.937 0 004.604 3.417 9.868 9.868 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 002.46-2.548l-.047-.02z"></path>
-                                </svg>
-                                <p class="ms-2">Twitter</p>
                             </a>
                             <a rel="noopener noreferrer" href="#" title="Instagram" class="flex items-center p-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" class="w-5 h-5 fill-current">

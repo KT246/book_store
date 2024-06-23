@@ -21,6 +21,9 @@
         elseif($menu == 'detail'){
             include './User/content/detail.php';
         }
+        elseif($menu == 'search'){
+            include './User/content/search.php';
+        }
         elseif($menu == 'set'){
             include './set.php';
         }
@@ -28,6 +31,8 @@
 //------------ page content
 
    
+}else{
+    include './User/content/allProduct.php';
 }
     
 ?>
